@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Ensure relative positioning for logo */
+}
+
+.logo-container {
+    position: absolute;
+    top: -50px; /* Adjust positioning as needed */
+    left: 50%; 
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.logo-container img.logo {
+    max-width: 100px; /* Adjust logo size as needed */
+    display: block;
+}
+
+.chat-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chat-header h1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.messages {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.message.user {
+    align-self: flex-end;
+    background-color: #d3f4ff; 
+    border-radius: 10px;
+}
+
+.message.bot {
+    align-self: flex-start;
+    background-color: #f0f0f0; 
+    border-radius: 10px;
+}
+
+.message-form {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    max-width: 300px; 
+}
+
+.message-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px; 
+    font-weight: bold; 
+    font-smoothing: antialiased; 
+    outline: none; 
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.send-btn {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    font-weight: bold; 
+    font-smoothing: antialiased; 
+    outline: none; 
+    transition: background-color 0.3s ease;
+}
+
+.send-btn:hover {
+    background-color: #0056b3; 
+}
+
+.message-input:focus {
+    background-color: #e6f7ff;
+}

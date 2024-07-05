@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "question": "hello",
+      "answer": "Hi there!"
+    },
+    {
+      "question": "do you like jazz?",
+      "answer": "Jazz is snazzy"
+    },
+    {
+      "question": "is jazz cool",
+      "answer": "jazz is cool"
+    },
+    {
+      "question": "& C:/Users/faizan/AppData/Local/Programs/Python/Python312/python.exe c:/Users/faizan/Documents/code/chatbot/main.py",
+      "answer": "& C:/Users/faizan/AppData/Local/Programs/Python/Python312/python.exe c:/Users/faizan/Documents/code/chatbot/main.py"
+    },
+    {
+      "question": "so whats good",
+      "answer": "its all good"
+    },
+    {
+      "question": "pip install flask",
+      "answer": "pip install flask"
+    }
+  ]
+}
