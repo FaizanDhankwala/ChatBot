@@ -1,7 +1,7 @@
-## Basic ChatBot using Python
+# Basic ChatBot using Python
 ![logoo](https://github.com/FaizanDhankwala/ChatBot/assets/55712375/428c513f-20d4-433b-9931-356563cb757e)
 
-# Chatbot Interface
+
 
 This project implements a simple chatbot interface using HTML, CSS, and JavaScript. The chatbot allows users to input messages, matches them with predefined questions, and provides responses. Users can also teach the chatbot new responses if it doesn't recognize the input. 
 This chatbot is pretty simple and mainly uses json to remember responses. Using fuzzy matching, the chatbot attempts to recognize and respond to various forms of input, learning new responses when unfamiliar queries arise. 
